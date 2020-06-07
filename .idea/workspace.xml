@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ee2d982-c515-4ebd-a695-2ddda4102654" name="Default Changelist" comment="" />
+    <list default="true" id="8ee2d982-c515-4ebd-a695-2ddda4102654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CCLientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CClientChannelInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CServerChannelInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/circulation_demo/CServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello_demo/HelloServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello_demo/HelloServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello_demo/TestServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IClientInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/im_demo/IServerInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/timeout_demo/TServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/timeout_demo/TServerChannelInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/timeout_demo/TServerHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/timeout_demo/TServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CCLientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CCLientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CClientChannelInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CClientChannelInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CServerChannelInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CServerChannelInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/circulation_demo/CServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/circulation_demo/CServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello_demo/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello_demo/HelloServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello_demo/HelloServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello_demo/HelloServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello_demo/TestServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello_demo/TestServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im_demo/IClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im_demo/IClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im_demo/IServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im_demo/IServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timeout_demo/TServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timeout_demo/TServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timeout_demo/TServerChannelInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timeout_demo/TServerChannelInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/timeout_demo/TServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/timeout_demo/TServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/websocket_demo/WServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websocket_demo/WServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/websocket_demo/WServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websocket_demo/WServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/websocket_demo/WServerInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websocket_demo/WServerInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/websocket_demo/WebSocketHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/websocket_demo/WebSocketHtml.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +82,12 @@
                 <item name="hello_netty" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello_netty" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -40,12 +98,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bFAwWcMQge5y7VHSU0gMpZUuSx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,31 +116,35 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\ideaProject\hello_netty" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="file_demo" />
+      <recent name="protobuf_demo" />
       <recent name="websocket_demo" />
       <recent name="timeout_demo" />
       <recent name="im_demo" />
-      <recent name="circulation_demo" />
-      <recent name="hello_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IClient">
-    <configuration name="CClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="circulation_demo.CClient" />
-      <module name="hello_netty.main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Client" />
+      <module name="hello_netty.hell_nio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="circulation_demo.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="circulation_demo.CServer" />
-      <module name="hello_netty.main" />
+    <configuration name="DirectBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo1.DirectBufferTest" />
+      <module name="hello_netty.hell_nio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="circulation_demo.*" />
+          <option name="PATTERN" value="demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="im_demo.IClient" />
-      <module name="hello_netty.main" />
+    <configuration name="NioTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo1.NioTest" />
+      <module name="hello_netty.hell_nio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="im_demo.*" />
+          <option name="PATTERN" value="demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="im_demo.IServer" />
-      <module name="hello_netty.main" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Server" />
+      <module name="hello_netty.hell_nio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="im_demo.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,33 +191,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timeout_demo.TServer" />
-      <module name="hello_netty.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timeout_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TestBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestBuffer" />
+      <module name="hello_netty.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CClient" />
-      <item itemvalue="Application.CServer" />
-      <item itemvalue="Application.IClient" />
-      <item itemvalue="Application.IServer" />
-      <item itemvalue="Application.TServer" />
+      <item itemvalue="Application.NioTest" />
+      <item itemvalue="Application.DirectBufferTest" />
+      <item itemvalue="Application.TestBuffer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IClient" />
-        <item itemvalue="Application.TServer" />
-        <item itemvalue="Application.IServer" />
-        <item itemvalue="Application.CClient" />
-        <item itemvalue="Application.CServer" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.TestBuffer" />
+        <item itemvalue="Application.DirectBufferTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +233,39 @@
       <workItem from="1588333122008" duration="2165000" />
       <workItem from="1588385734217" duration="5556000" />
       <workItem from="1588429306627" duration="811000" />
+      <workItem from="1588562269837" duration="7217000" />
+      <workItem from="1588601816522" duration="72000" />
+      <workItem from="1588601907944" duration="99000" />
+      <workItem from="1588602019729" duration="16000" />
+      <workItem from="1588602050106" duration="109000" />
+      <workItem from="1588602173593" duration="100000" />
+      <workItem from="1588602286807" duration="21000" />
+      <workItem from="1588602322863" duration="2296000" />
+      <workItem from="1588637740147" duration="8000" />
+      <workItem from="1588640957253" duration="6194000" />
+      <workItem from="1588753246904" duration="4000" />
+      <workItem from="1588815989316" duration="2367000" />
+      <workItem from="1588824574826" duration="42000" />
+      <workItem from="1588842176110" duration="4333000" />
+      <workItem from="1589111445747" duration="14000" />
+      <workItem from="1589160764732" duration="6901000" />
+      <workItem from="1589192404393" duration="4000" />
+      <workItem from="1589197354097" duration="31000" />
+      <workItem from="1590717897464" duration="2498000" />
+      <workItem from="1590799633917" duration="2308000" />
+      <workItem from="1590809014169" duration="317000" />
+      <workItem from="1590814912931" duration="472000" />
+      <workItem from="1590815450700" duration="2034000" />
+      <workItem from="1590905343949" duration="593000" />
+      <workItem from="1590978780103" duration="4929000" />
+      <workItem from="1591013267048" duration="1980000" />
+      <workItem from="1591059858186" duration="5095000" />
+      <workItem from="1591150165466" duration="2485000" />
+      <workItem from="1591328885367" duration="3372000" />
+      <workItem from="1591337366114" duration="1195000" />
+      <workItem from="1591340382571" duration="21000" />
+      <workItem from="1591342342353" duration="1232000" />
+      <workItem from="1591343748860" duration="2343000" />
     </task>
     <servers />
   </component>
@@ -185,45 +277,66 @@
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
     <state x="873" y="397" key="#Project_Structure/0.31.2560.1409@0.31.2560.1409" timestamp="1588397114381" />
-    <state x="1034" y="404" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588386080336">
+    <state x="1034" y="404" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591343818351">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
     <state x="1034" y="404" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.2560.1409@0.31.2560.1409" timestamp="1588386080336" />
-    <state x="1136" y="343" key="#com.intellij.ide.util.MemberChooser" timestamp="1588397674213">
+    <state x="1034" y="404" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591343818351" />
+    <state x="1318" y="550" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588601777078">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="1136" y="343" key="#com.intellij.ide.util.MemberChooser/0.31.2560.1409@0.31.2560.1409" timestamp="1588397674213" />
-    <state x="1247" y="386" key="FileChooserDialogImpl" timestamp="1588217904426">
+    <state x="1318" y="550" key="#com.intellij.fileTypes.FileTypeChooser/0.31.2560.1409@0.31.2560.1409" timestamp="1588601777078" />
+    <state x="1136" y="343" key="#com.intellij.ide.util.MemberChooser" timestamp="1590980278982">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="1247" y="386" key="FileChooserDialogImpl/0.31.2560.1409@0.31.2560.1409" timestamp="1588217904426" />
-    <state width="2517" height="494" key="GridCell.Tab.0.bottom" timestamp="1588429263469">
+    <state x="1136" y="343" key="#com.intellij.ide.util.MemberChooser/0.31.2560.1409@0.31.2560.1409" timestamp="1588816692094" />
+    <state x="1136" y="343" key="#com.intellij.ide.util.MemberChooser/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1590980278982" />
+    <state x="1305" y="580" width="414" height="355" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591014658740">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2517" height="494" key="GridCell.Tab.0.bottom/0.31.2560.1409@0.31.2560.1409" timestamp="1588429263469" />
-    <state width="2517" height="494" key="GridCell.Tab.0.center" timestamp="1588429263468">
+    <state x="1305" y="580" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.31.2560.1409@0.31.2560.1409" timestamp="1588585928540" />
+    <state x="1305" y="580" width="414" height="355" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591014658740" />
+    <state x="1247" y="386" key="FileChooserDialogImpl" timestamp="1588602131297">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2517" height="494" key="GridCell.Tab.0.center/0.31.2560.1409@0.31.2560.1409" timestamp="1588429263468" />
-    <state width="2517" height="494" key="GridCell.Tab.0.left" timestamp="1588429263468">
+    <state x="1247" y="386" key="FileChooserDialogImpl/0.31.2560.1409@0.31.2560.1409" timestamp="1588602131297" />
+    <state width="1466" height="280" key="GridCell.Tab.0.bottom" timestamp="1591348259375">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2517" height="494" key="GridCell.Tab.0.left/0.31.2560.1409@0.31.2560.1409" timestamp="1588429263468" />
-    <state width="2517" height="494" key="GridCell.Tab.0.right" timestamp="1588429263468">
+    <state width="1265" height="318" key="GridCell.Tab.0.bottom/0.31.2560.1409@0.31.2560.1409" timestamp="1589180899072" />
+    <state width="1466" height="280" key="GridCell.Tab.0.bottom/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591348259375" />
+    <state width="1466" height="280" key="GridCell.Tab.0.center" timestamp="1591348259375">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2517" height="494" key="GridCell.Tab.0.right/0.31.2560.1409@0.31.2560.1409" timestamp="1588429263468" />
-    <state x="1017" y="466" key="SettingsEditor" timestamp="1588386223200">
+    <state width="1265" height="318" key="GridCell.Tab.0.center/0.31.2560.1409@0.31.2560.1409" timestamp="1589180899072" />
+    <state width="1466" height="280" key="GridCell.Tab.0.center/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591348259375" />
+    <state width="1466" height="280" key="GridCell.Tab.0.left" timestamp="1591348259375">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="1017" y="466" key="SettingsEditor/0.31.2560.1409@0.31.2560.1409" timestamp="1588386223200" />
-    <state x="989" y="563" key="com.intellij.ide.util.TipDialog" timestamp="1588562272357">
+    <state width="1265" height="318" key="GridCell.Tab.0.left/0.31.2560.1409@0.31.2560.1409" timestamp="1589180899071" />
+    <state width="1466" height="280" key="GridCell.Tab.0.left/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591348259375" />
+    <state width="1466" height="280" key="GridCell.Tab.0.right" timestamp="1591348259375">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="989" y="563" key="com.intellij.ide.util.TipDialog/0.31.2560.1409@0.31.2560.1409" timestamp="1588562272357" />
-    <state x="1207" y="367" width="672" height="678" key="search.everywhere.popup" timestamp="1588387671076">
+    <state width="1265" height="318" key="GridCell.Tab.0.right/0.31.2560.1409@0.31.2560.1409" timestamp="1589180899072" />
+    <state width="1466" height="280" key="GridCell.Tab.0.right/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591348259375" />
+    <state x="1092" y="280" key="SettingsEditor" timestamp="1588844030030">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="1207" y="367" width="672" height="678" key="search.everywhere.popup/0.31.2560.1409@0.31.2560.1409" timestamp="1588387671076" />
+    <state x="1092" y="280" key="SettingsEditor/0.31.2560.1409@0.31.2560.1409" timestamp="1588844030030" />
+    <state x="994" y="563" key="com.intellij.ide.util.TipDialog" timestamp="1591059859336">
+      <screen x="0" y="31" width="2560" height="1409" />
+    </state>
+    <state x="994" y="563" key="com.intellij.ide.util.TipDialog/0.31.2560.1409@0.31.2560.1409" timestamp="1589192405620" />
+    <state x="994" y="563" key="com.intellij.ide.util.TipDialog/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1591059859336" />
+    <state x="1279" y="311" key="new project wizard" timestamp="1588845019518">
+      <screen x="0" y="31" width="2560" height="1409" />
+    </state>
+    <state x="1279" y="311" key="new project wizard/0.31.2560.1409@0.31.2560.1409" timestamp="1588845019518" />
+    <state x="1207" y="367" width="672" height="678" key="search.everywhere.popup" timestamp="1590815840432">
+      <screen x="0" y="31" width="2560" height="1409" />
+    </state>
+    <state x="1207" y="367" width="672" height="678" key="search.everywhere.popup/0.31.2560.1409@0.31.2560.1409" timestamp="1589164762901" />
+    <state x="1207" y="367" width="672" height="678" key="search.everywhere.popup/3840.299.1536.827/0.31.2560.1409@0.31.2560.1409" timestamp="1590815840432" />
   </component>
 </project>

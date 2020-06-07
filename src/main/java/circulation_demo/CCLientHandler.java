@@ -11,8 +11,8 @@ public class CCLientHandler extends SimpleChannelInboundHandler<String> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
         System.out.println(ctx.channel().remoteAddress());
-        System.out.println("receive msg:"+msg);
-        ctx.channel().writeAndFlush("from client:"+ LocalDateTime.now());
+        System.out.println("receive msg:" + msg);
+        ctx.channel().writeAndFlush("from client:" + LocalDateTime.now());
     }
 
     @Override

@@ -1,6 +1,8 @@
 plugins {
     id 'java'
+    id 'com.google.protobuf' version '0.8.8'
 }
+
 
 group 'zrx'
 version '1.0-SNAPSHOT'
@@ -18,7 +20,29 @@ dependencies {
 //            "junit:junit:4.12"
 //    )
 //    compile group: 'io.netty', name: 'netty-all', version: '4.1.49.Final'
-    compile (
-            "io.netty:netty-all:4.1.49.Final"
+    compile(
+            "io.netty:netty-all:4.1.49.Final",
+            "com.google.protobuf:protobuf-java:3.11.0",
+            "com.google.protobuf:protobuf-java-util:3.11.0",
+            "io.grpc:grpc-netty-shaded:1.29.0",
+            "io.grpc:grpc-protobuf:1.29.0",
+            "io.grpc:grpc-stub:1.29.0"
     )
+}
+
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.11.0"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.29.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
 }

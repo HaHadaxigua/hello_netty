@@ -11,13 +11,13 @@ import io.netty.util.CharsetUtil;
 public class HelloServerHandler extends SimpleChannelInboundHandler {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-       if(msg instanceof HttpRequest){
-           ByteBuf content = Unpooled.copiedBuffer("hello world", CharsetUtil.UTF_8);
-           FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, content);
-           response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain");
-           response.headers().set(HttpHeaderNames.CONTENT_LENGTH, content.readableBytes());
+        if (msg instanceof HttpRequest) {
+            ByteBuf content = Unpooled.copiedBuffer("hello world", CharsetUtil.UTF_8);
+            FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK, content);
+            response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain");
+            response.headers().set(HttpHeaderNames.CONTENT_LENGTH, content.readableBytes());
 
-           ctx.writeAndFlush(response);
-       }
+            ctx.writeAndFlush(response);
+        }
     }
 }

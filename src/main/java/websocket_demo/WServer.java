@@ -8,12 +8,16 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
-// 一个WebSocket服务端
+/**
+ * 一个WebSocket服务端
+ * webSocket 客户端不止可以是网页，app也可以
+  */
 public class WServer {
     public static void main(String[] args) {
         new WServer().start();
     }
-    private void start(){
+
+    private void start() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {

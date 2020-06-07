@@ -15,15 +15,16 @@ public class IClient {
         System.out.println("A IClient start...");
         new IClient().start();
     }
-    private void start(){
+
+    private void start() {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
-        try{
+        try {
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(workerGroup).channel(NioSocketChannel.class).handler(new IClientInitialize());
-            Channel channel = bootstrap.connect("localhost",8899).sync().channel();
+            Channel channel = bootstrap.connect("localhost", 8899).sync().channel();
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            for(;;){
-                channel.writeAndFlush(reader.readLine()+"\r\n");
+            for (; ; ) {
+                channel.writeAndFlush(reader.readLine() + "\r\n");
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

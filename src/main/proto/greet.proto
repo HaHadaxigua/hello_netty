@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package proto;
+
+option java_package = "grpc_demo";
+option java_outer_className = "Greet";
+option java_multiple_files = true;
+
+service GreetService{
+    rpc SayHello(HRequest) returns(HResponse){}
+}
+
+message HRequest{
+    string msg = 1;
+}
+
+message HResponse{
+    string msg = 1;
+}

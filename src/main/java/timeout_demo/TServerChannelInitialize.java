@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class TServerChannelInitialize extends ChannelInitializer<SocketChannel> {
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
-        pipeline.addLast(new IdleStateHandler(2,3,4, TimeUnit.SECONDS));
+        pipeline.addLast(new IdleStateHandler(2, 3, 4, TimeUnit.SECONDS));
         pipeline.addLast(new TServerHandler());
     }
 }

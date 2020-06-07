@@ -13,7 +13,8 @@ public class CServer {
 
         new CServer().start();
     }
-    public void start(){
+
+    public void start() {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 

@@ -9,22 +9,25 @@ import io.netty.util.concurrent.EventExecutorGroup;
 
 import java.time.LocalDateTime;
 
+/**
+ * webSocket以帧的格式发送消息
+ */
 public class WServerHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx,TextWebSocketFrame msg) throws Exception {
-        System.out.println("收到消息："+msg.text());
+    protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
+        System.out.println("收到消息：" + msg.text());
 
-        ctx.channel().writeAndFlush(new TextWebSocketFrame("服务器时间："+ LocalDateTime.now()));
+        ctx.channel().writeAndFlush(new TextWebSocketFrame("服务器时间：" + LocalDateTime.now()));
     }
 
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("channelAdded"+ctx.channel().id().asLongText());
+        System.out.println("channelAdded" + ctx.channel().id().asLongText());
     }
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("channelRemoved"+ctx.channel().id().asLongText());
+        System.out.println("channelRemoved" + ctx.channel().id().asLongText());
     }
 
     @Override

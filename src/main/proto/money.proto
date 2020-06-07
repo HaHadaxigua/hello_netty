@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+package proto;
+
+option optimize_for = SPEED;
+option java_package = "protobuf_demo";
+option java_outer_classname = "MyDataInfo";
+
+message User{
+    optional string user_name = 1;
+    optional int32 user_id = 2;
+    optional string user_addr = 3;
+}
+
+message ResponseBack{
+    optional string back_name = 1;
+    optional int32 back_money = 2;
+}
+
+
